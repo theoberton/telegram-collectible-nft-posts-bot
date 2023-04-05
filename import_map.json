@@ -1,0 +1,28 @@
+{
+  "imports": {
+    "lodash": "npm:lodash@^4.17.21",
+    "grammy": "https://deno.land/x/grammy@v1.15.3/mod.ts",
+    "grammyMongoStorage": "npm:@satont/grammy-mongodb-storage@^1.0.1",
+    "uuidv4": "npm:uuidv4@^6.2.13",
+    "grammy-conversation": "https://lib.deno.dev/x/grammy_conversations@1.x/mod.ts",
+    "grammy-inline-menu": "npm:grammy-inline-menu@^8.0.0",
+    "@orbs-network/ton-access": "npm:@orbs-network/ton-access@^2.3.0",
+    "@thirdweb-dev/storage": "npm:@thirdweb-dev/storage@^1.1.0",
+    "@types/config": "npm:@types/config@^3.3.0",
+    "@types/cors": "npm:@types/cors@^2.8.13",
+    "@types/lodash": "npm:@types/lodash@^4.14.191",
+    "axios": "npm:axios@^1.3.4",
+    "base64url": "npm:base64url@^3.0.1",
+    "config": "npm:config@^3.3.9",
+    "deep-rename-keys": "npm:deep-rename-keys@^0.2.1",
+    "deep-rename-keys-ts": "npm:deep-rename-keys-ts@^1.0.1",
+    "dotenv": "npm:dotenv^16.0.3",
+    "log4js": "npm:log4js@^6.9.1",
+    "mongoose": "npm:mongoose@^7.0.1",
+    "ton": "npm:ton@^13.4.1",
+    "ton-core": "npm:ton-core^0.48.0",
+    "ton-crypto": "npm:ton-crypto^3.2.0",
+    "/": "./",
+    "./": "./"
+  }
+}

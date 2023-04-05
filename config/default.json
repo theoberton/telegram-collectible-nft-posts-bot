@@ -1,0 +1,25 @@
+{
+  "mongoDB": {
+    "host": "localhost",
+    "port": 27031,
+    "sslEnabled": false,
+    "dbName": "collectible-bot"
+  },
+  "telegram": {
+    "collectibleBot": {
+      "token": "5580477149:AAGnZtCrskBumXUnZWesnBxg5i1WIQsHOVI"
+    }
+  },
+  "security": {
+    "mongoDBSSL": {
+      "folderPath": "/Users/lll/Projects/certifi",
+      "caFileName": "mongodb.pem",
+      "certFileName": "mongodb-cert.crt",
+      "keyFileName": "mongodb-cert.key"
+    }
+  },
+  "host": {
+    "port": 3002,
+    "url": "587c-37-45-233-197.eu.ngrok.io"
+  }
+}
