@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Pull changes
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        password: ${{ secrets.SSH_PASSWORD}}
+        port: 22
+        script: |
+          cd ~/collectible
+          git pull origin main
+          docker-compose down
+          docker-compose up --build -d

@@ -1,0 +1,1 @@
+export const BROWSER_LAUNCH_ARGS = ['--disable-gpu','--no-sandbox','--no-zygote','--disable-setuid-sandbox','--disable-accelerated-2d-canvas','--disable-dev-shm-usage', "--proxy-server='direct://'", "--proxy-bypass-list=*"]

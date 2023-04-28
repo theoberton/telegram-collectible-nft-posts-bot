@@ -1,0 +1,30 @@
+{
+  "mongoDB": {
+    "host": "MONGO_HOST",
+    "port": 27017,
+    "sslEnabled": false,
+    "dbName": "DB_NAME"
+  },
+  "telegram": {
+    "collectibleBot": {
+      "token": "BOT_TOKEN",
+      "address": "ADDRESS"
+    }
+  },
+  "security": {
+    "mongoDBSSL": {
+      "folderPath": "SSL_FOLDER_PATH",
+      "caFileName": "SSL_PEM",
+      "certFileName": "SSL_CRT",
+      "keyFileName": "SSL_KEY"
+    }
+  },
+  "tonkeeper": {
+    "url": "https://app.tonkeeper.com/v1"
+  },
+  "host": {
+    "port": 8000,
+    "url": "HOST_URL"
+  },
+  "isTestnet": true
+}

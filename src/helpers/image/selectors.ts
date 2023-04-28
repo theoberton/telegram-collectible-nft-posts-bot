@@ -1,0 +1,12 @@
+export const htmlSelector = "html";
+export const bodySelector = "body";
+export const headWrapperSelector = ".tgme_head_wrap";
+export const widgetActionsWrapSelector = ".tgme_page_widget_actions_wrap";
+export const divPageWrapperSelector = ".tgme_page_wrap";
+export const userPhotoSelector = ".tgme_widget_message_user_photo";
+export const divContentSelector = ".tgme_body_wrap";
+export const iframeSelector = "#widget > div > iframe";
+export const messageSelector = `body > div > div.tgme_widget_message_bubble > div.tgme_widget_message_text.js-message_text`;
+export const messageContentWrapperSelector = "body > div";
+export const messageWidgetSelector = ".tgme_widget_message_user";
+export const messageWidgetBubleSelector = ".tgme_widget_message_bubble";

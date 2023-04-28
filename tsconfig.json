@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "types": [
+      "./src/wrappers/types/index.d.ts",
+      "./src/types/libs/index.d.ts"
+    ],
+    "paths": {
+      "/*": ["./*"]
+    },
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "isolatedModules": true,
+    "lib": ["es2020", "DOM"],
+    "moduleDetection": "force",
+    "strict": true,
+    "target": "esnext",
+    "useDefineForClassFields": true
+  }
+}
