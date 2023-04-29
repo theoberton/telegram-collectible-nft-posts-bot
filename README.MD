@@ -13,6 +13,23 @@ This bot makes it easy for you to mint NFTs - whether it's a breathtaking image,
 
 ### Getting started
 
-Create `config` folder at the root of the project with `default.json` file inside.
+Install deno binary
+```
+https://deno.com/manual@v1.33.1/getting_started/installation
+```
+<br/><br/>
+
+Install puppeteer required Chromium components
+```
+PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@16.2.0/install.ts
+```
+
+Create `config` folder at the root of the project with `default.json` file inside. <br/>
 Use `.default.example.json` to get a template for `default.json` file.
+
+Run the project
+
+```
+deno tasks run
+```
 
