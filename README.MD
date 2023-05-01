@@ -7,9 +7,9 @@
 ### Description
 
 This Telegram bot allows authors to create mintable NFTs from theirs Telegram channel posts! 
-But more than that - it gives an easy and effortless way for audience to show its support for its favorite authors and particular posts in a truly unique and meaningful way by mingting NFT of the post
+But more than that - it gives an easy and effortless way for audience to show its support for its favorite authors and particular posts in a truly unique and meaningful way by minting NFT of the post
 
-This bot makes it easy for you to mint NFTs - whether it's a breathtaking image, a thought-provoking quote, or a memorable moment. By doing so, you not only show your appreciation for the content, but you also become a part of its history by owning a one-of-a-kind digital asset that is securely stored on the blockchain.
+This bot makes it easy for readers to mint NFTs - whether it's a breathtaking image, a thought-provoking quote, or a memorable moment. By doing so, he may not only can show his appreciation for the content, and have a valuable bookmark stored blockchain in as NFT.
 
 ### Getting started
 
@@ -17,7 +17,7 @@ Install deno binary
 ```
 https://deno.com/manual@v1.33.1/getting_started/installation
 ```
-<br/><br/>
+<br/>
 
 Install puppeteer required Chromium components
 ```
