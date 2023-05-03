@@ -51,6 +51,7 @@ async function set(ctx: BotContext) {
     updateEdition!,
     data.collectionData.nextItemIndex
   );
+  console.log("edition.mintLink button visibility", updateEdition?.mintLink);
 
   await ctx.api.editMessageReplyMarkup(edition.channelId, edition.messageId, {
     reply_markup: {

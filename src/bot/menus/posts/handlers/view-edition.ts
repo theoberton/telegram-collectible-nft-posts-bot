@@ -35,8 +35,10 @@ async function link(ctx: BotContext) {
 
   if (!edition?.isPublished) {
     link = composePostUrl(channel.username, editionData.postId);
+    console.log('link isPublished', link)
   } else {
     link = composePixelUrl(edition.address);
+    console.log('link is not Published', link)
   }
 
   return link;
