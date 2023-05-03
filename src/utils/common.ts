@@ -18,13 +18,13 @@ export function calcPercent(value: bigint, percent: number) {
 export function getEditionTitleName(text: string) {
   const dotLocation = text.indexOf(".");
 
-  if (dotLocation < 50) {
+  if (dotLocation > -1 && dotLocation < 50) {
     return text.slice(0, dotLocation);
   }
 
-  const words = text.split(" ");
+  const words = text.split(" ").filter((v) => v !== "");
 
-  const title = words.slice(0, 8);
+  const title = words.slice(0, 5);
 
   return `${title.join(" ")} ...`;
 }
