@@ -44,8 +44,8 @@ export function composeMintTitle(
 
 export function composePixelUrl(collectionAddress: string) {
   return `https://${
-    config.isTestnet ? "testnet" : ""
-  }.pi.oberton.io/#/edition/${collectionAddress}`;
+    config.isTestnet ? "testnet." : ""
+  }pi.oberton.io/#/edition/${collectionAddress}`;
 }
 
 export function composePostUrl(channelName: string, postId: number) {
