@@ -21,7 +21,6 @@ export async function composeMintTxn(collectionAddress: string) {
   });
 
   const transactionParams = {
-    validUntil: Date.now() + 1000 * 60 * TXN_CREATION_VALIDITY_MINUTES,
     messages: [
       {
         address: managerAddress,

@@ -9,9 +9,11 @@ export async function editionSettingsSet(
   ctx: BotContext,
   next: NextFunction
 ): Promise<void> {
+  console.log("ctx.chat?.id!", ctx.chat?.id!);
+
   const user = await userService.findUser(ctx.chat?.id!);
 
-  if (!user.editionSettings) {
+  if (!user?.editionSettings) {
     await ctx.reply(BOT_REPLIES_MAP.SETUP_EDTION_SETTINGS);
   } else {
     next();
